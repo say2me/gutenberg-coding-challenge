@@ -66,7 +66,7 @@ export default function Preview( { countryCode, relatedPosts } ) {
 									<h3 className="xwp-country-card__related-post-title">
 										{ relatedPost.title }
 									</h3>
-									<p classsName="xwp-country-card__related-post-excerpt">
+									<p className="xwp-country-card__related-post-excerpt">
 										{ relatedPost.excerpt }
 									</p>
 								</a>
