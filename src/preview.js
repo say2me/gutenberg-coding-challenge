@@ -63,9 +63,9 @@ export default function Preview( { countryCode, relatedPosts } ) {
 									href={ relatedPost.link }
 									data-post-id={ relatedPost.id }
 								>
-									<h3 className="xwp-country-card__related-post-title">
+									<h4 className="xwp-country-card__related-post-title">
 										{ relatedPost.title }
-									</h3>
+									</h4>
 									<p className="xwp-country-card__related-post-excerpt">
 										{ relatedPost.excerpt }
 									</p>
